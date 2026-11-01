@@ -1,0 +1,12 @@
+Package: Friedman
+Title: Tools for Summarizing and Auditing Purchasing Data
+Version: 0.0.0.9000
+Authors@R: 
+    person("Adam", "Suleiman", , "adamsuleiman@usf.edu", role = c("aut", "cre"))
+Description: This package exists to analyze purchase orders and vendor spend data such as plotting expenses over time and visualizing house construction budgets in different areas.
+License: CC0
+Config/roxygen2/version: 8.1.1
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Depends: R (>= 3.1.2)
+Imports: dplyr, ggplot2
